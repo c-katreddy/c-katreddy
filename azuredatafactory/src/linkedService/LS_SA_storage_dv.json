@@ -1,0 +1,18 @@
+{
+	"name": "LS_SA_storage_dv",
+	"properties": {
+		"description": "Linked service with access to the storage account to move files from input folder to output folder.",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_AKV_dv_storage",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "storage-stcrdvnpdadf1-adf"
+			}
+		}
+	}
+}
