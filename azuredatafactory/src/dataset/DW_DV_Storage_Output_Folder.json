@@ -1,0 +1,18 @@
+{
+	"name": "DW_DV_Storage_Output_Folder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SA_storage_dv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Output",
+				"container": "adftutorial"
+			}
+		}
+	}
+}
