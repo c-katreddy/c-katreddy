@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"folderPath": "Output",
-				"container": "adftutorial"
+				"container": "adfdata"
 			}
 		}
 	}
