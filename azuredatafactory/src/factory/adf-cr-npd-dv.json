@@ -1,0 +1,9 @@
+{
+	"name": "adf-cr-npd-dv",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ba4a340c-431b-4dab-a459-bc84a8132517",
+		"tenantId": "418e2841-0128-4dd5-9b6c-47fc5a9a1bde"
+	}
+}
