@@ -1,5 +1,5 @@
 {
-	"name": "DW_DV_Storage_Output_Folder",
+	"name": "DS_DV_Storage_Output_Folder",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_SA_storage_dv",
